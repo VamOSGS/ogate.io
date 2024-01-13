@@ -184,6 +184,7 @@ body {
   top: -50%;
   left: -50%;
   opacity: 0.7;
+  transition: 0.9s background;
 }
 
 .social {
@@ -205,4 +206,45 @@ body {
   color: white;
   text-decoration: none;
   margin-right: 8px;
+  transition: 0.3s;
+}
+
+#eLlGnpbvDqh1 {
+  width: 300px;
+  fill: #fff;
+  transition: 0.9s;
+}
+
+#bg {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 0, 131, 0) 0%,
+    rgba(218, 67, 162, 0.7861738445378151) 59%,
+    rgba(0, 149, 213, 0.07749037114845936) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: 0.6s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 44;
+}
+
+#bg2 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 131, 0) 0%,
+    rgba(0, 174, 255, 0.7861738445378151) 50%,
+    rgba(0, 149, 213, 0.07749037114845936) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+  opacity: 0;
+  transition: 0.6s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 44;
 }
